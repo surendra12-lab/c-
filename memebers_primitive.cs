@@ -20,6 +20,14 @@ class members
         System.Console.WriteLine("{0}", char.IsLetter('h'));
         System.Console.WriteLine("{0}", char.IsWhiteSpace("hello ",5));// indexing from zero position
         System.Console.WriteLine("{0}", char.IsPunctuation('?'));
+        //parse and tryparse
+        bool b = bool.Parse("True");
+       int i = int.Parse("23");
+       double d = double.Parse("23.456");
+       c = char.Parse("h");
+       String k1=Console.ReadLine();
+      int.TryParse(k1, out int k);
+       Console.WriteLine(k);
 
     }
 }
